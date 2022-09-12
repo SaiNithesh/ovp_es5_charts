@@ -12,7 +12,7 @@
 |**Application Title**<br>OVP Charts - ES5|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_fiori_3|
-|**UI5 Version**<br>1.84.14|
+|**UI5 Version**<br>1.96.12|
 |**Enable Code Assist Libraries**<br>False|
 |**Add Eslint configuration**<br>False|
 |**FilterEntity Type**<br>SEPMRA_C_PD_ProductType|
