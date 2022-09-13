@@ -132,6 +132,31 @@
                     "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#tableLinteItemQual"
                 }
             },
+            "listCard": {
+                "model": "mainModel",
+                "template": "sap.ovp.cards.list",
+                "settings": {
+                    "title": "List Card",
+                    "listType": "condensed",
+                    "listFlavor": "standard",
+                    "entitySet": "SEPMRA_C_PD_ContactPerson",
+                    "tabs": [
+                        {
+                            "dynamicSubtitleAnnotationPath": "com.sap.vocabularies.UI.v1.HeaderInfo#listLineItemDynSubtitleQualif",
+                            "value": "Tab1",
+                            "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#listLineItemQualif",
+                            "selectionAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant"
+                        },
+                        {
+                            "dynamicSubtitleAnnotationPath": "com.sap.vocabularies.UI.v1.HeaderInfo#listLineItemDynSubtitleQualif2",
+                            "value": "Tab2",
+                            "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#listLineItemQualif2",
+                            "selectionAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant"
+                        }
+                    ],
+                    "addODataSelect": false
+                }
+            },
             "donutCard": {
                 "model": "mainModel",
                 "template": "sap.ovp.cards.charts.analytical",
