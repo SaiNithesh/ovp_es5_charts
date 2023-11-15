@@ -29,8 +29,10 @@ server:
     - name: sap-fe-mockserver
       beforeMiddleware: csp
       configuration:
-        service:
-          urlPath: /sap/opu/odata/sap/SEPMRA_PROD_MAN
-          metadataXmlPath: ./webapp/localService/metadata.xml
-          mockdataRootPath: ./webapp/localService/data
-          generateMockData: true
+        mountPath: /
+        services:
+          - urlPath: /sap/opu/odata/sap/SEPMRA_PROD_MAN
+            metadataPath: ./webapp/localService/metadata.xml
+            mockdataPath: ./webapp/localService/data
+            generateMockData: true
+        annotations: []
